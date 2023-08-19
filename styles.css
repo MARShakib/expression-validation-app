@@ -5,12 +5,15 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .form-select{
-    width: 250px;
+    width: 200px;
     align-self: center;
 }
-
 footer {
     color: #f5f6f7;
     padding: 20px 20px;
