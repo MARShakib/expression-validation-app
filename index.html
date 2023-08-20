@@ -18,13 +18,16 @@
         </div>
     </nav>
     <div class="container">
-      <select class="form-select">
-        <option selected>Email</option>
-        <option value="1">Phone Number</option>
-        <option value="2">Post Code</option>
+      <select class="form-select" id="options">
+        <option selected value="Email">Email</option>
+        <option value="Phone Number">Phone Number</option>
+        <option value="Post Code">Post Code</option>
       </select>
-      <input class="form-control form-control-lg" type="text" placeholder="input" aria-label=".form-control-lg example">
-      <button type="button" class="btn btn-outline-info" style="width: 100px; align-self: center;">Check</button>
+      <input class="form-control form-control-lg" id="input-slot" type="text" placeholder="input" aria-label=".form-control-lg example">
+      <div id="message" style="text-align: center;">
+        
+      </div>
+      <button type="button" class="btn btn-outline-info" id="check-btn" style="width: 100px; align-self: center;">Check</button>
     </div>
     <footer class="bg-secondary">
       <p class="footer-text">
